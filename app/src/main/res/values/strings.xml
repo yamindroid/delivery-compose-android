@@ -1,3 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">delivery-compose-android</string>
+    <string name="app_name">My Deliveries</string>
+    
+    <!-- Common Actions -->
+    <string name="action_back">Back</string>
+    <string name="action_favorite">Favorite</string>
+    <string name="action_unfavorite">Unfavorite</string>
+    <string name="action_add_to_favorite">Add to favorites</string>
+    <string name="action_remove_from_favorite">Remove from favorites</string>
+    <string name="action_delivery_details">Delivery details</string>
+    <string name="action_retry">Retry</string>
+
+    <!-- Screen Titles -->
+    <string name="screen_delivery_list">My Deliveries</string>
+    <string name="screen_delivery_detail">Delivery Details</string>
+    
+    <!-- Content Descriptions -->
+    <string name="content_description_app_icon">App Icon</string>
+    <string name="content_description_delivery_image">Delivery Image</string>
+    <string name="content_description_favorite_button">Toggle Favorite</string>
+    <string name="content_description_navigation_back">Navigation Back</string>
+    
+    <!-- Section Titles -->
+    <string name="section_route_info">Route Information</string>
+    <string name="section_goods_info">Goods to Deliver</string>
+    <string name="section_pricing">Pricing Details</string>
+    
+    <!-- Labels -->
+    <string name="label_pickup_location">Pickup Location</string>
+    <string name="label_dropoff_location">Drop-off Location</string>
+    <string name="label_remarks">Remarks</string>
+    <string name="label_delivery_fee">Delivery Fee</string>
+    <string name="label_surcharge">Surcharge</string>
+    <string name="label_total">Total</string>
+    
+    <!-- Error Messages -->
+    <string name="error_loading_delivery">Failed to load delivery details</string>
+    <string name="error_generic">An unexpected error occurred</string>
+    <string name="error_network">Please check your network connection and try again</string>
+    <string name="error_empty_deliveries">No deliveries available</string>
+    
+    <!-- Dialog Titles -->
+    <string name="dialog_title_network_error">Network Error</string>
+    <string name="dialog_description_network_error">Please check your network connection and try again.</string>
+    
+    <!-- Formats -->
+    <string name="format_currency">$%s</string>
+    <string name="format_date">EEE, MMM dd, hh:mm a</string>
 </resources>

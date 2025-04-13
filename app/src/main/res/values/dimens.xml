@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Spacing -->
+    <dimen name="spacing_none">0dp</dimen>
+    <dimen name="spacing_xxsmall">2dp</dimen>
+    <dimen name="spacing_xsmall">4dp</dimen>
+    <dimen name="spacing_small">8dp</dimen>
+    <dimen name="spacing_medium">16dp</dimen>
+    <dimen name="spacing_large">24dp</dimen>
+    <dimen name="spacing_xlarge">32dp</dimen>
+    <dimen name="spacing_xxlarge">40dp</dimen>
+    <dimen name="spacing_xxxlarge">48dp</dimen>
+    
+    <!-- Elevation -->
+    <dimen name="elevation_none">0dp</dimen>
+    <dimen name="elevation_small">1dp</dimen>
+    <dimen name="elevation_medium">4dp</dimen>
+    <dimen name="elevation_large">8dp</dimen>
+    <dimen name="elevation_xlarge">16dp</dimen>
+    
+    <!-- Component Specific -->
+    <dimen name="icon_size_xsmall">16dp</dimen>
+    <dimen name="icon_size_small">24dp</dimen>
+    <dimen name="icon_size_medium">32dp</dimen>
+    <dimen name="icon_size_large">48dp</dimen>
+    <dimen name ="icon_size_xlarge">80dp</dimen>
+    
+    <!-- Route Visualization -->
+    <dimen name="route_line_width">2dp</dimen>
+    <dimen name="route_line_height">48dp</dimen>
+    <dimen name="route_point_size">8dp</dimen>
+    
+    <!-- Card -->
+    <dimen name="card_corner_radius_small">8dp</dimen>
+    <dimen name="card_corner_radius_medium">12dp</dimen>
+    <dimen name="card_elevation">1dp</dimen>
+
+    <!-- Toolbar -->
+    <dimen name="toolbar_icon_size">40dp</dimen>
+
+    <!-- Divider -->
+    <dimen name="divider_height">1dp</dimen>
+</resources> 
