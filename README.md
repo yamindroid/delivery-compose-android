@@ -2,41 +2,34 @@
 
 A modern Android delivery tracking application built with Jetpack Compose and following Clean Architecture principles. The app provides a seamless experience for tracking deliveries with features like real-time updates, offline support, and a beautiful Material 3 design.
 
-## 📱 Screenshots
+## 📸 Screenshots
 
 <div align="center">
+
+### 🌞 Light Mode
+
 <table>
   <tr>
     <td><img src="screenshots/DeliveryListScreen_LightMode.png" width="200"/></td>
-    <td><img src="screenshots/DeliveryListScreen_DarkMode.png" width="200"/></td>
-  </tr>
-  <tr>
-    <td>Delivery List (Light)</td>
-    <td>Delivery List (Dark)</td>
-  </tr>
-</table>
-
-<table>
-  <tr>
     <td><img src="screenshots/DeliveryDetailScreen_LightMode_1.png" width="200"/></td>
-    <td><img src="screenshots/DeliveryDetailScreen_DarkMode_1.png" width="200"/></td>
-  </tr>
-  <tr>
-    <td>Delivery Details (Light)</td>
-    <td>Delivery Details (Dark)</td>
+    <td><img src="screenshots/DeliveryDetailScreen_LightMode_2.png" width="200"/></td>
+    <td><img src="screenshots/NetworkError_LightMode.png" width="200"/></td>
   </tr>
 </table>
 
+<br/>
+
+### 🌙 Dark Mode
+
 <table>
   <tr>
-    <td><img src="screenshots/NetworkError_LightMode.png" width="200"/></td>
+    <td><img src="screenshots/DeliveryListScreen_DarkMode.png" width="200"/></td>
+    <td><img src="screenshots/DeliveryDetailScreen_DarkMode_1.png" width="200"/></td>
+    <td><img src="screenshots/DeliveryDetailScreen_DarkMode_2.png" width="200"/></td>
     <td><img src="screenshots/NetworkError_DarkMode.png" width="200"/></td>
   </tr>
-  <tr>
-    <td>Error Handling (Light)</td>
-    <td>Error Handling (Dark)</td>
-  </tr>
 </table>
+
 </div>
 
 ## ✨ Features
@@ -145,7 +138,7 @@ The application is built with production readiness in mind:
 
 ## 📱 Device Support
 
-- Minimum SDK: Android 11 (API 30)
+- Minimum SDK: Android 7 (API 24)
 - Target SDK: Android 14 (API 34)
 - Supports both phones and tablets
 - Handles different screen sizes and orientations
