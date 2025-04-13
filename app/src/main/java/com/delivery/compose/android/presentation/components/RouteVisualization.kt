@@ -58,7 +58,6 @@ private fun RoutePoint(
     isStartPoint: Boolean,
     modifier: Modifier = Modifier
 ) {
-
     val color = if (isStartPoint) {
         DeepOrange40
     } else {

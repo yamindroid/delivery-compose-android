@@ -14,4 +14,4 @@ abstract class RepositoryModule {
     @Binds
     @Singleton
     abstract fun bindDeliveryRepository(deliveryRepositoryImpl: DeliveryRepositoryImpl): DeliveryRepository
-} 
+}

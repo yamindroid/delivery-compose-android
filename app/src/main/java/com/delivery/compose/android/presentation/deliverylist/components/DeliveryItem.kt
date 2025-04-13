@@ -234,4 +234,4 @@ private fun DeliveryTimeText(pickupTime: String) {
         style = MaterialTheme.typography.labelMedium,
         color = MaterialTheme.colorScheme.onSurfaceVariant
     )
-} 
+}

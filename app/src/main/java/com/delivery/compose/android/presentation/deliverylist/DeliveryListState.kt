@@ -28,4 +28,4 @@ sealed class DeliveryListState {
      * @property message The error message to display
      */
     data class Error(val message: String) : DeliveryListState()
-} 
+}
