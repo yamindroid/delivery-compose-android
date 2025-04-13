@@ -227,12 +227,12 @@ private fun PricingSection(delivery: Delivery) {
         ) {
             PriceRow(
                 label = stringResource(R.string.label_delivery_fee),
-                amount = stringResource(R.string.format_currency, delivery.deliveryFee)
+                amount = delivery.deliveryFee
             )
 
             PriceRow(
                 label = stringResource(R.string.label_surcharge),
-                amount = stringResource(R.string.format_currency, delivery.surcharge)
+                amount = delivery.surcharge
             )
 
             Divider(
